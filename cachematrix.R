@@ -4,8 +4,8 @@
 ## The first function, makeCacheMatrix creates a special object, which is really a list containing a function to
 ##    set the value of the matrix
 ##    get the value of the matrix
-##    set the value of the inverse
-##    get the value of the inverse
+##    setinv which sets the value of the inverse
+##    getinv which gets the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
